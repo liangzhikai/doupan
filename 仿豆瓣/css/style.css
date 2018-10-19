@@ -1,0 +1,145 @@
+body{
+
+	background: white;
+}
+.header{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height:150px;
+	background: white;
+}
+.header ul{
+	
+	height: 100px;
+	width:955px;
+	margin: 0 auto ;
+} 
+.header ul li {	
+	
+	list-style: none;
+	padding: 30px 5px 0px 5px;
+	margin: 0 auto;
+	float: left;
+	color: black;
+	
+}
+
+#dushu{
+	font-size: 25px;
+	color: #796653;
+}
+#dianyin{
+	font-size: 25px;
+	color: #2B8FCF;
+}
+#yinyue{
+	font-size: 25px;
+	color: #F7A74F;
+}
+#xiaozu{
+	font-size: 25px;
+	color: #6BBEC2;
+}
+#tongcheng{
+	font-size: 25px;
+	color: #EB6C2A;
+
+}
+#fm{
+	font-size: 25px;
+	color: #9ED8C7;
+}
+#shijian{
+	font-size: 25px;
+	color: #666666;
+
+}
+#shiji{
+
+	font-size: 25px;
+	color: #679E1F;
+}
+
+/* 
+div.search {padding: 30px 0} */
+form {
+  position: relative;
+  width: 200px;
+  /* margin: 0 auto; */
+}
+
+/*  .d3 {background: #F9F0DA;} */
+.d3 form {
+  background: white;
+}
+.d3 input, .d3 button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.d3 input {
+  width: 100%;
+  height: 35px;
+  padding-left: 15px;
+  border:1px solid gray;
+  color: gray;
+}
+.d3 button {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.d3 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: gray;
+}
+.header1{
+	padding: 0px;
+	margin-top: -30px;
+	width:100%;
+	height:226px;
+	background-image:url(../images/h2.png);
+	background-size: 100% 226px;
+	background-repeat: no-repeat;
+}
+.reg{
+	width: 200px;
+	width: 300px;
+
+}
+.reg ul{
+	position: relative;
+	padding-top: 30px;
+	padding-left: 850px;
+	float: left;
+}
+.reg ul li {
+	list-style: none;
+	padding-top: 5px;
+	float:left;
+	color: black;
+}
+ .reg input {
+	width: 250px;
+	height: 30px;
+	border: 1px solid white;
+	color: gray;
+} 
+.xiazai{
+	position: absolute;
+	top: 255px;
+	right: 780px;
+
+}
+
+#all{
+	padding: 0px;
+	margin: 0px auto;
+	width: 955px;
+}
